@@ -1,0 +1,52 @@
+.hero{
+    background-image:url("../../../../public/images/bann.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+}  
+.hero .container{
+    padding-top: 13%;
+} 
+.hero h1{
+    color:rgb(15, 76, 84);
+    font-size: 60px;
+}.hero p{
+    color:rgb(70, 112, 136);
+    opacity:0.8;
+
+}
+form{
+    background-color:rgb(179, 152, 116);
+    border-radius: 6px;
+    height:76px;
+    padding:2rem;
+    margin-top:70px;
+}
+form input{
+    padding:10px;
+    width:90%;
+    border: 2px solid rgb(190, 142, 83);
+    margin-top: 5px;
+    border-radius: 5px;
+ 
+}
+form span{
+    font-size:14px;
+    color:black;
+    font-weight: 500;
+}
+input::placeholder{
+    font-size: 15px;
+    color:rgb(190, 142, 83);
+}
+.btn2{
+    background-color: rgb(190, 142, 83);
+}
+form.box:nth-child(1){
+    border-left: 1px solid #000;
+}
+form h4{
+    font-weight: 500;
+}
